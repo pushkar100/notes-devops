@@ -1,5 +1,26 @@
 # Jenkins (2023)
 
+- [Jenkins (2023)](#jenkins--2023-)
+  * [Why would you use Jenkins?](#why-would-you-use-jenkins-)
+  * [Alternatives to Jenkins](#alternatives-to-jenkins)
+  * [Drawbacks of Jenkins](#drawbacks-of-jenkins)
+  * [Terminology](#terminology)
+    + [Jenkins specific terminology](#jenkins-specific-terminology)
+  * [Step 1: Hosting Jenkins](#step-1--hosting-jenkins)
+  * [Step 2: Hosting the application](#step-2--hosting-the-application)
+    + [Adding Git to the server](#adding-git-to-the-server)
+  * [Step 3: Setting up Jenkins](#step-3--setting-up-jenkins)
+  * [The Jenkins dashboard](#the-jenkins-dashboard)
+    + [Manage Jenkins dashboard](#manage-jenkins-dashboard)
+  * [Step 4: Installing plugins](#step-4--installing-plugins)
+    + [Blue Ocean](#blue-ocean)
+  * [Step 5: Creating a pipeline](#step-5--creating-a-pipeline)
+    + [Creating a stage](#creating-a-stage)
+      - [Example JenkinsFile in your repo](#example-jenkinsfile-in-your-repo)
+    + [Example of adding a shell command as a step in a stage](#example-of-adding-a-shell-command-as-a-step-in-a-stage)
+  * [Step 6: Editing a JenkinsFile](#step-6--editing-a-jenkinsfile)
+  * [Running stages and steps in parallel](#running-stages-and-steps-in-parallel)
+
 **Jenkins is a tool for automation with Continuous Integration (CI) and Continuous Deployment (CD) pipelines.**
 
 * Started in **2004**
